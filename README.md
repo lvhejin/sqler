@@ -44,7 +44,8 @@ Quick Tour
 - You install `sqler` using the right binary for your `os` from the [releases](https://github.com/alash3al/sqler/releases) page.
 - Let's say that you downloaded `sqler_darwin_amd64`
 - Let's rename it to `sqler`, and copy it to `/usr/local/bin`
-- Now just run `sqler -h`, you will the next  
+- Now just run `sqler -h`, you will the next
+
 ```bash
                          ____   ___  _
                         / ___| / _ \| |    ___ _ __
@@ -68,6 +69,7 @@ Quick Tour
   -workers int
         the maximum workers count (default 4)
 ```
+
 - you can specifiy multiple files for `-config` as [configuration](#configuration-overview), i.e `-config="/my/config/dir/*.hcl,/my/config/dir2/*.hcl"`
 - you need specify which driver you need and its `dsn` from the following:
 

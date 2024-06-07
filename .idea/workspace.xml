@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92225c7c-2d4c-4e79-bd3c-b86146601485" name="Changes" comment="">
+    <list default="true" id="92225c7c-2d4c-4e79-bd3c-b86146601485" name="Changes" comment="编译命令">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars.go" beforeDir="false" afterPath="$PROJECT_DIR$/vars.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +92,7 @@
     <MESSAGE value="修改 sqlerVersion ,&#9;sqlerBrand" />
     <MESSAGE value="修改版本号，logo" />
     <MESSAGE value="MySQL、PostgreSQL数据库的SQL配置文件样例" />
-    <option name="LAST_COMMIT_MESSAGE" value="MySQL、PostgreSQL数据库的SQL配置文件样例" />
+    <MESSAGE value="编译命令" />
+    <option name="LAST_COMMIT_MESSAGE" value="编译命令" />
   </component>
 </project>

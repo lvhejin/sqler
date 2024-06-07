@@ -11,8 +11,8 @@ import (
 )
 
 func main() {
-	fmt.Println(color.MagentaString(sqlerBrand))
-	fmt.Printf("⇨ sqler server version: %s \n", color.GreenString(sqlerVersion))
+	fmt.Println(color.MagentaString(SQLtoAPIBrand))
+	fmt.Printf("⇨ sqler server version: %s \n", color.GreenString(SQLtoAPIVersion))
 	fmt.Printf("⇨ sqler used driver is %s \n", color.GreenString(*flagDBDriver))
 	fmt.Printf("⇨ sqler used dsn is %s \n", color.GreenString(*flagDBDSN))
 	fmt.Printf("⇨ sqler workers count: %s \n", color.GreenString(strconv.Itoa(*flagWorkers)))

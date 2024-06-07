@@ -38,8 +38,8 @@ var (
 )
 
 const (
-	sqlerVersion = "v3.0.0"
-	sqlerBrand   = `
+	SQLtoAPIVersion = "v3.0.0"
+	SQLtoAPIBrand   = `
    _____ ____    __       __           ___    ____  ____
   / ___// __ \  / /      / /_____     /   |  / __ \/  _/
   \__ \/ / / / / /      / __/ __ \   / /| | / /_/ // /  

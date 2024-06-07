@@ -23,7 +23,7 @@ import (
 func init() {
 	usage := flag.Usage
 	flag.Usage = func() {
-		fmt.Println(color.MagentaString(sqlerBrand))
+		fmt.Println(color.MagentaString(SQLtoAPIBrand))
 		usage()
 	}
 

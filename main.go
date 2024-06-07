@@ -12,12 +12,12 @@ import (
 
 func main() {
 	fmt.Println(color.MagentaString(SQLtoAPIBrand))
-	fmt.Printf("⇨ sqler server version: %s \n", color.GreenString(SQLtoAPIVersion))
-	fmt.Printf("⇨ sqler used driver is %s \n", color.GreenString(*flagDBDriver))
-	fmt.Printf("⇨ sqler used dsn is %s \n", color.GreenString(*flagDBDSN))
-	fmt.Printf("⇨ sqler workers count: %s \n", color.GreenString(strconv.Itoa(*flagWorkers)))
-	fmt.Printf("⇨ sqler resp server available at: %s \n", color.GreenString(*flagRESPListenAddr))
-	fmt.Printf("⇨ sqler rest server available at: %s \n", color.GreenString(*flagRESTListenAddr))
+	fmt.Printf("⇨ SQLtoAPI server version: %s \n", color.GreenString(SQLtoAPIVersion))
+	fmt.Printf("⇨ SQLtoAPI used driver is %s \n", color.GreenString(*flagDBDriver))
+	fmt.Printf("⇨ SQLtoAPI used dsn is %s \n", color.GreenString(*flagDBDSN))
+	fmt.Printf("⇨ SQLtoAPI workers count: %s \n", color.GreenString(strconv.Itoa(*flagWorkers)))
+	fmt.Printf("⇨ SQLtoAPI resp server available at: %s \n", color.GreenString(*flagRESPListenAddr))
+	fmt.Printf("⇨ SQLtoAPI rest server available at: %s \n", color.GreenString(*flagRESTListenAddr))
 
 	err := make(chan error)
 

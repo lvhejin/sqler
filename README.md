@@ -111,6 +111,18 @@ docker run --network=host alash3al/sqler -driver=mysql -dsn=usr:pass@tcp(127.0.0
 docker run -link mysql alash3al/sqler -driver=mysql -dsn=usr:pass@tcp(mysql:3306)/dbname
 
 ```
+Windows
+======
+```bash
+go build -ldflags "-s -w" -o SQLtoAPI.exe
+```
+Linux
+======
+```bash
+SET GOOS=linux
+SET GOARCH=amd64
+go build -ldflags "-s -w" -o SQLtoAPI
+```
 
 Configuration Overview
 ======================

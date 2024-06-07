@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92225c7c-2d4c-4e79-bd3c-b86146601485" name="Changes" comment="修改版本号，logo">
-      <change afterPath="$PROJECT_DIR$/config.PostgreSQL.hcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.mysql.hcl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/init.go" beforeDir="false" afterPath="$PROJECT_DIR$/init.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars.go" beforeDir="false" afterPath="$PROJECT_DIR$/vars.go" afterDir="false" />
+    <list default="true" id="92225c7c-2d4c-4e79-bd3c-b86146601485" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +89,7 @@
     <MESSAGE value="解决解决“pq: unknown authentication response: 10“报错&#10;&#10;&#10;背景：go运行程序报错&quot;pq: unknown authentication response: 10&quot;&#10;&#10;网上找说升级pq，没找到怎么升级，这里记录一下：&#10;&#10;linux输入命令行：&#10;&#10;go get github.com/lib/pq&#10;&#10;显示go: upgraded github.com/lib/pq v1.0.0 =&gt; v1.10.9&#10;&#10;说明升级成功，重新执行程序没问题了。" />
     <MESSAGE value="修改 sqlerVersion ,&#9;sqlerBrand" />
     <MESSAGE value="修改版本号，logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改版本号，logo" />
+    <MESSAGE value="MySQL、PostgreSQL数据库的SQL配置文件样例" />
+    <option name="LAST_COMMIT_MESSAGE" value="MySQL、PostgreSQL数据库的SQL配置文件样例" />
   </component>
 </project>

@@ -118,14 +118,23 @@ Windows
 ```bash
 go build -ldflags "-s -w" -o SQLtoAPI.exe
 ```
-Linux
+Linux amd64
 ======
 ```bash
 SET GOOS=linux
 SET GOARCH=amd64
 go build -ldflags "-s -w" -o SQLtoAPI
 ```
+Linux arm架构
+```shell
+set GOOS=linux
+set GOARCH=arm64
+go build -ldflags "-s -w" -o SQLtoAPI_arm64
 
+# 如果你想编译为 ARM 32 位架构，可以使用：
+GOOS=linux GOARCH=arm GOARM=7 go build -o SQLtoAPI_arm32   
+# 这里的   GOARM   可以设置为 6、7 或 8，具体取决于你目标 ARM 设备的版本
+```
 Configuration Overview
 ======================
 ```hcl

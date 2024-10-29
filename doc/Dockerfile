@@ -4,10 +4,10 @@ FROM ubuntu:latest
 # 暴露端口
 EXPOSE 8025 6378
 
-ENV CONFIG="config.mysql.hcl"
+ENV CONFIG="/usr/bin/config.mysql.hcl"
 ENV DRIVER="mysql"
 ENV DSN="root:pwd@tcp(192.168.137.1)/sql_to_api?multiStatements=true&collation=utf8mb4_unicode_ci"
-
+RUN ln -snf /usr/share/zoneinfo/${TIME_ZONE} /etc/localtime && echo ${TIME_ZONE} > /etc/timezone
 # 将可执行文件复制到镜像中
 COPY SQLtoAPI /usr/bin/SQLtoAPI
 copy config.mysql.hcl /usr/bin/config.mysql.hcl

@@ -38,7 +38,7 @@ var (
 )
 
 const (
-	SQLtoAPIVersion = "v3.0.0"
+	SQLtoAPIVersion = "v3.1.2"
 	SQLtoAPIBrand   = `
 
 		   _____ ____    __       __           ___    ____  ____
@@ -47,7 +47,7 @@ const (
 		 ___/ / /_/ / / /___   / /_/ /_/ /  / ___ |/ ____// /   
 		/____/\___\_\/_____/   \__/\____/  /_/  |_/_/   /___/   
 						
-			将SQL查询转换为安全有效的RESTful API
+		   将SQL查询转换为安全有效的RESTful API . ` + SQLtoAPIVersion + `
 
 `
 )

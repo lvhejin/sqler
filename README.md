@@ -112,20 +112,21 @@ docker run --network=host alash3al/sqler -driver=mysql -dsn=usr:pass@tcp(127.0.0
 # connect to another mysql container
 docker run -link mysql alash3al/sqler -driver=mysql -dsn=usr:pass@tcp(mysql:3306)/dbname
 
+docker run --network=host --rm --name sqltoapi -h sqltoapi -e CONFIG="/usr/bin/config.mysql.hcl" -e DSN="root:123123@tcp(192.168.137.1)/sql_to_api?multiStatements=true&collation=utf8mb4_unicode_ci" sqltoapi:3.0.2
 ```
 Windows
 ======
 ```bash
-go build -ldflags "-s -w" -o SQLtoAPI.exe
+go build -ldflags "-s -w" -o SQLtoAPI_amd64.exe
 ```
-Linux amd64
+Linux amd64 Dos窗口执行
 ======
 ```bash
 SET GOOS=linux
 SET GOARCH=amd64
-go build -ldflags "-s -w" -o SQLtoAPI
+go build -ldflags "-s -w" -o SQLtoAPI_amd64
 ```
-Linux arm架构
+Linux arm架构 Dos窗口执行
 ```shell
 set GOOS=linux
 set GOARCH=arm64

@@ -1,4 +1,4 @@
-version="3.0.2"
+version="3.1.2"
 service_name="sql-to-api"
 
 echo "开发构建容器...版本号：${version}"
